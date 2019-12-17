@@ -1,0 +1,137 @@
+.body{
+    height: 100vh;
+	margin: 0;
+	font-family: Arial;
+	background: #202c45;
+}
+.containerEat{
+	height:100vh;
+	display:grid;
+	grid-template-rows:60px auto 20px;
+	margin:0 ;
+}
+.headerEat{
+    height:65px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color: #202c45;
+}
+.logoEat{
+    padding-left:20px;
+    padding-top: 5px;
+    align-items:left;
+   
+}
+.meniuEat{
+
+    padding-top: 8px;
+    align-items:right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  li {
+    float: right;
+  }
+  
+  li a {
+      
+    display: block;
+    color: #FFC0CB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: 	rgb(233, 132, 166);
+  }
+  .active {
+    background-color:	rgb(233, 132, 166);
+  }
+.mainEat{
+    background-image: url(../img/eat3.jpg);
+    width:auto;
+    filter: alpha(opacity=50);
+}
+.contentEat{
+    display:grid;
+    grid-template-rows: 20% 80%;
+    color:  #FFFFFF;
+       
+}
+
+.descriereEat{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.mapEat{
+
+   align-items: center;
+   padding-left: 270px;
+}
+
+.footerEat{
+    height:150px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color:#202c45 ;
+}
+.subscribe{
+    padding-left:80px;
+    color:#FFC0CB;
+}
+
+.subscribeForm{
+    
+    border-color: #fff!important;
+   
+}
+.subscribeInput{
+
+height: 37px;
+padding-top:10px!important;
+border-radius: 8px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+background: none;
+border: 1px solid rgb(231, 228, 228);
+}
+.subscribeBtn{
+
+height: 50px;
+padding-top:10px!important;
+border-radius: 8px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+margin-left: -9px;
+background:#FFC0CB;
+border:none;	
+}
+.followEat{
+color:#FFC0CB;
+padding-top:3px;
+padding-left:80px;
+}
+.followEat .fa{
+font-size: 20px !important;
+padding-right: 15px;
+
+margin-left:10px;
+}
+.followEat .fa:hover{
+color: white;
+}
+ul {
+text-align: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
